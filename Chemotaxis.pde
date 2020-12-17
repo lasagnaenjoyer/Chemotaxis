@@ -8,7 +8,6 @@ Bacteria[] dust = new Bacteria[60];
    {
        dust[i] = new Bacteria((int)(Math.random()*470)+15, 10, 0);     
    }
-   //Math.random()*5)-2,(int)(Math.random()*3)-1
  }   
  void draw()   
  {    
